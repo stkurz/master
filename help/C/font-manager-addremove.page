@@ -28,9 +28,9 @@
     </title>
 
 <section id="font-manager-add">
-<title>Adding fonts</title>
+<title>Adding font families</title>
 
-<p>Once you start up <app>Font Manager</app>, you can use it to manage your font collection. The default font directory is <code>~/fonts/</code>. More source directories can be added in the <link xref="font-manager-preferences">Preferences Pane</link></p>
+<p>Once you start up <app>Font Manager</app>, you can use it to manage your font collection. The default font directory is <code>~/.local/share/fonts</code>. More source directories (like <code>~/fonts/</code>) can be added in the <link xref="font-manager-preferences">Preferences Pane</link></p>
 
 <p>Adding fonts to the collection can be done via </p>
 
@@ -43,7 +43,7 @@
 <section id="font-manager-remove">
 <title>Removing fonts</title>
 
-<p>Removing fonts is currently broken as of version 0.7.3. <!--file bug report, the "Delete" button only offers a window to remove fonts selected in a previous action to move a font to an existing Collection}--></p>
+<p>To remove a font family, click the <gui>-</gui> button and select the fonts to remove in the list. This works only with fonts that have been installed through <app>Font Manager</app> (see <link xref="#font-manager-add">adding font families</link>) and/or reside in the default directory. </p>
 </section>
 
 </page>
